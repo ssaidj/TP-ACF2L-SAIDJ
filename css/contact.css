@@ -1,0 +1,222 @@
+.custom-navbar {
+  background: transparent;
+  transition: background-color 0.3s ease;
+  padding-top: 0rem;
+  padding-bottom: 0.3rem;
+  margin-top: -6px;
+}
+
+.custom-navbar.scrolled {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.navbar .nav-link {
+  color: white !important;
+  margin: 0 5px;
+  padding: 8px 15px;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+}
+
+.navbar .nav-link.active {
+  background: #f1f1f1;
+  color: #000 !important;
+  font-weight: 600;
+}
+
+.hero-contact {
+  height: 90px;
+  background-image: url(../image/BackNav.svg);
+  background-size: cover;
+  background-position: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.footer {
+  background: linear-gradient(to bottom, #555, #333);
+}
+
+.footer-title {
+  background: linear-gradient(to top, #555, #333);
+  background-size: cover;
+  color: #fff;
+  font-weight: bold;
+  margin: 0;
+  font-size: 44px;
+}
+
+.footer p {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-icon {
+  width: 80px;
+  height: auto;
+}
+
+.email-icon {
+  margin-left: -105px;
+}
+
+.phone-icon {
+  margin-left: -105px;
+}
+
+.address-icon {
+  margin-left: -120px;
+  width: 110px;
+}
+
+.footer p span {
+  color: #000;
+  font-size: 16px;
+}
+
+.footer-email .email-text {
+  margin-left: 5px;
+  font-weight: bold;
+}
+
+.footer-phone .phone-text {
+  margin-left: 5px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;       
+}
+
+.footer-address .address-text {
+  margin-left: -5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.facebook-link img,
+.twitter-link img,
+.linkedin-link img,
+.instagram-link img {
+  transition: transform 0.3s ease;
+  display: block;
+}
+
+.facebook-logo {
+  width: 100px;
+  height: 100px;
+  margin-left: -95px;
+}
+
+.twitter-logo {
+  width: 110px;
+  height: -10px;
+}
+
+.linkedin-logo {
+  width: -40px;
+  height: 80px;
+}
+
+.instagram-logo {
+  width: 160px;
+  height: 160px;
+}
+
+.facebook-logo:hover,
+.twitter-logo:hover,
+.linkedin-logo:hover,
+.instagram-logo:hover {
+  transform: scale(1.1) translateY(-10px);
+}
+
+.footer .form-control {
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid #666;
+  color: #fff;
+}
+
+.footer .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer h5 {
+  color: rgb(252, 252, 252);
+  font-weight: bold;
+  margin-left: 180px;
+}
+
+.footer-message {
+  color: #ffffff;
+  font-size: 14px;
+  margin-bottom: 15px;
+  margin-left: 180px;
+}
+
+.footer-bottom {
+  position: relative;
+  width: 100%;
+  padding: 20px 0;
+}
+
+.footer-logo {
+  position: relative;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+.footer-copyright {
+  position: relative;
+  text-align: left;
+  margin-bottom: 5px;
+  margin-left: 450px;
+  color: #000;
+}
+
+.footer-credits {
+  position: relative;
+  text-align: left;
+  font-size: 14px;
+  color: #000000;
+  margin-left: 490px;
+}
+
+.footer .col-md-4 {
+  flex: 0 0 auto;
+}
+
+.footer .col-md-8 {
+  flex: 0 0 auto;
+  margin-left: -10px;
+}
+
+.footer .form-control::placeholder {
+  color: #aaa;
+}
+
+.footer .btn-dark {
+  background-color: #242222;
+  border: none;
+  margin-left: 120px;
+}
+
+.footer .col-md-8 form {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer .col-md-8 .form-control {
+  width: 100%;
+  resize: none;
+  box-sizing: border-box;
+}
+
+.footer .col-md-8 .btn-dark {
+  width: auto;
+  display: block;
+  margin-left: 0;
+  margin-top: 10px;
+}
